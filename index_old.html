@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en" class="no-js">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="[MIME TYPE]" href="img/blithlogo_blue.png" />
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,700' rel='stylesheet' type='text/css'>
+
+
+    <link href='https://fonts.googleapis.com/css?family=Titillium+Web' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="css/reset.css">
+    <!-- CSS reset -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Resource style -->
+    <link rel="stylesheet" href="css/mycustom.css">
+    <!-- Resource style -->
+    <script src="js/modernizr.js"></script>
+    <!-- Modernizr -->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+
+            $(window).scroll(function () {
+                var yPos = -$(window).scrollTop() / 3;
+
+                var c = '0px ' + yPos + 'px';
+
+                $('#abc').css({
+                    backgroundPosition: c
+                });
+                $('#banner').css({
+                    backgroundPosition: c
+                });
+            });
+
+
+            $('a[href^=#]').click(function (evt) {
+                evt.preventDefault();
+                var sel = '' + $(this).attr('href');
+                $("html, body").animate({
+                    scrollTop: $(sel).offset().top
+                }, 800);
+            });
+
+        });
+    </script>
+    <script>
+        $("#myNav").autoHidingNavbar();
+    </script>
+
+
+    <title>Blithchron</title>
+</head>
+<!-- hijacking: on/off - animation: none/scaleDown/rotate/gallery/catch/opacity/fixed/parallax -->
+
+<body data-spy="scroll" data-target=".navbar">
+
+    <div data-animation="scaleDown" id="scroff_eff_container">
+
+
+        <!--Navbar starts-->
+        <div class="navbar navbar-inverse navbar-fixed-top navbar-hidden" role="navigation" style="z-index:2000">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mainNav">
+                        <span class="glyphicon glyphicon-menu-down"></span>
+                    </button>
+                    <div class="navbar-brand" style="z-index:-1">
+                        <a href="#banner" id="B16"><img src="img/logo_white.png" id="b_logo"/>Blithchron</a>
+                    </div>
+                </div>
+                <div class="collapse navbar-collapse" id="mainNav">
+                    <ul class="nav navbar-nav">
+                        <li><a href="#intro_page">Home</a></li>
+                        <li><a href="#section2">About Blithchron</a></li>
+
+                        <li><a href="#section3">Events</a></li>
+                        <li><a href="#section4">Proshows</a></li>
+                        <li><a href="#section5">Sponsors</a></li>
+                        <li><a href="#section6">Contact Us</a></li>
+                        <li><a href="#section7">How to Reach</a></li>
+                    </ul>
+
+                    
+				</div>
+
+			</div>
+		</div>
+        <!--Navbar ends-->
+
+        <section id="intro_page" style="z-index:100;">
+            <div>
+                <div id="my_anim" style="">
+                    <img id="plane" src="img/my_plane.png">
+                    <h1>
+
+					<span style="color:#964324;">B</span>
+					<span style="color:#FF7182;">L</span>
+					<span style="color:#FFAE5D;">I</span>
+					<span style="color:#F8F8F2;">T</span>
+					<span style="color:#F8DEBD;">H</span>
+					<span style="color:#9F6164;">C</span>
+					<span style="color:#964324;">H</span>
+					<span style="color:#FF7182;">R</span>
+					<span style="color:#FFAE5D;">O</span>
+					<span style="color:#F8F8F2;">N</span>
+				
+				    </h1>
+                </div>
+
+                <div id="intro_content">
+                    <div id="intro_rotator1">
+                        <h2>Brace Yourself</h2>
+                    </div>
+                    <div id="intro_rotator2">
+                        <h2>This 30th, 31st January</h2>
+                    </div>
+                    <div id="intro_rotator3">
+                        <h2>The cultural festival of IIT Gandhinagar</h2>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+
+
+        <section id="section2" class="cd-section visible" style="z-index:1000; position:relative">
+            <div style="margin:0">
+                <div class="container" id="about_blithchron" style="color:white;">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="page-header">
+                        <h1>About Blithchron</h1></div>
+                    <p >&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Blithchron, the annual cultural fest of IIT-Gandhinagar, held around the month of January every year is one of the most awaited college cultural fests in West India witnessed a footfall of 25,ooo students from colleges all around India. Blithchron has witnessed an exponential inflation in footfall from 1000 to 25000 in 7 years. Blithchron imputes a euphoric atmosphere by seamlessly bringing together the eccentric young minds of the country.<br><br>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+Blithchron is derived from the words BLITHE- CHRONOS meaning "time of festivity". Blithchron was kick-start by the maiden batch of IITGN. Blithchron's influence on colleges is flourishing with each passing year. The shimmering lights and the ear deafening sound of Blithchron gives one of it's kind experience each time.
+                        <br></p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section3" class="cd-section" style="z-index:1000; position:relative">
+            <div style="margin:0">
+                <div class="container" id="events" style="color:white;">
+                    
+                    <br>
+                    <br>
+                    <div class="page-header">
+                        <h1>Events</h1></div>
+                    <p>Here is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 linesHere is the paragraph about events in 2-3 lines</p><br><br><br><br>
+					<div id="but-div"  style="text-align:center;">
+						<a id="event_redirect_button" href="events/">Take Me To Events</a>
+					</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section4" class="cd-section" style="z-index:1000; position:relative">
+            <div style="margin:0">
+                <div class="container" id="proshows" style="color:white;">
+                    
+                 
+                    <div id="sunburn">
+						<img src="img/sunburnGoa_logo.png"/>
+					</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="section5" class="cd-section" style="z-index:1000; position:relative">
+            <div style="background:#fff;">
+                <div class="container" id="sponsors">
+                   <br><br>
+                    <div class="page-header">
+                        <h1>Sponsors</h1></div>
+					<br><br><br><br><br>
+                    <p></p>
+					<h3 style="text-align:center;">Will be updated soon...</h3>
+
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <section id="section6" class="cd-section" style="z-index:1000; position:relative">
+            <div>
+                <div class="container" id="contact">
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <div class="page-header">
+                        <h1>Contact Us</h1>
+                    </div>
+                    <div class="container-fluid">
+                        <p>For queries about specific events, contact the event coordinators (see the Events page for details)</p>
+                        <p>For queries about sponsorship, drop us a mail at <a href="mailto">sponsorship-blithchron@iitgn.ac.in</a></p>
+                        Connect with us on Social Media!
+                        <br>
+                        <br><br>
+                        <div class="row mysocial">
+                            <a href="https://www.facebook.com/Blithchron/" target="_blank"><img src="img/social_icons/facebook.png" class="social"> </a> &nbsp; &nbsp;
+                            <a href="https://twitter.com/blithchroniitgn" target="_blank"><img src="img/social_icons/twitter.png" class="social"></a> &nbsp; &nbsp;
+                            <a href="https://www.youtube.com/user/BlithchronIITGN" target="_blank"><img src="img/social_icons/youtube.png" class="social"> </a> &nbsp; &nbsp;
+                            <a href="https://plus.google.com/103693851333093784075" target="_blank"><img src="img/social_icons/googleplus.png" class="social"> </a> &nbsp; &nbsp;
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+    </div>
+    </section>
+
+    <section id="section7" class="cd-section" style="z-index:1000; position:relative;">
+        <div style="background:#fff;">
+            <div class="container" id="sponsors">
+                
+               
+                <div class="page-header">
+                    <h1>How to Reach</h1></div>
+                <p>Blithchron is being held this year at IIT Gandhinagar, which is located at the banks of Sabarmati river at Palaj, Gandhinagar. It is situated at a distance of approximately 25 km from Ahmedabad Airport and 30 km from Ahmedabad Junction (Kalupur Railway Station). Palaj is situated at a distance of 7 km away from Gandhinagar Akshardham Temple
+and at a distance of 5 km. from a place called Lekawada Patiya.</p>
+
+                <iframe style="width: 100%; overflow: hidden;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7333.746281499782!2d72.68470097054383!3d23.211293370524725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c2ae01ff2ab91%3A0xe7ca35ad915fa73a!2sIIT+Gandhinagar+Housing!5e0!3m2!1sen!2sin!4v1452969237313" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+				
+				<br>
+            </div>
+        </div>
+
+    </section>
+
+
+    <script src="js/jquery-2.1.4.js"></script>
+    <script src="js/velocity.min.js"></script>
+    <script src="js/velocity.ui.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Resource jQuery -->
+
+
+
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="js/jquery.bootstrap-autohidingnavbar.js"></script>
+    <script>
+        $("div.navbar-fixed-top").autoHidingNavbar();
+    </script>
+
+    <script>
+        $(document).ready(function () {
+
+
+            function stickyScroll(e) {
+
+                var my_animation = window.pageYOffset,
+                    plane_pos = 1090,
+                    banner_pos = 1370,
+                    my_dec = my_animation,
+                    mywin_width = $(window).width(),
+                    banner_fix_pos = mywin_width / 2 - 250;
+                plane_final_pos = plane_pos - my_dec,
+                    banner_final_pos = banner_pos - my_dec;
+
+                if (banner_fix_pos > banner_final_pos) {
+                    banner_final_pos = banner_fix_pos;
+                }
+
+                $('#plane').css({
+                    left: plane_final_pos
+                });
+                $('#my_anim>h1').css({
+                    left: banner_final_pos
+                });
+
+                switch (true) {
+
+                case (my_animation < 350):
+                    {
+                        $('#intro_rotator2').css({
+                            transform: 'rotateX(-90deg)',
+                            transition: '0s'
+                        });
+                        $('#intro_rotator1').css({
+                            transform: 'rotateX(0deg)',
+                            transition: '1s'
+                        });
+                        $('#intro_rotator3').css({
+                            transform: 'rotateX(90deg)',
+                            transition: '0s'
+                        });
+                        break;
+                    }
+                case (my_animation < 830):
+                    {
+                        $('#intro_rotator2').css({
+                            transform: 'rotateX(0deg)',
+                            transition: '1s'
+                        });
+                        $('#intro_rotator1').css({
+                            transform: 'rotateX(-90deg)',
+                            transition: '0s'
+                        });
+                        $('#intro_rotator3').css({
+                            transform: 'rotateX(90deg)',
+                            transition: '0s'
+                        });
+                        break;
+                    }
+                case (my_animation > 830):
+                    {
+
+                        $('#intro_rotator3').css({
+                            transform: 'rotateX(0deg)',
+                            transition: '1s'
+                        });
+                        $('#intro_rotator1').css({
+                            transform: 'rotateX(-90deg)',
+                            transition: '0s'
+                        });
+                        $('#intro_rotator2').css({
+                            transform: 'rotateX(90deg)',
+                            transition: '0s'
+                        });
+                        break;
+                    }
+
+                }
+
+
+
+
+            }
+
+            window.addEventListener('scroll', stickyScroll, false);
+        });
+    </script>
+
+    <link rel="stylesheet" href="css/mycustom.css">
+    <link rel="stylesheet" href="css/tv_effect.css">
+
+</body>
+
+</html>
